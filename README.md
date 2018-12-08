@@ -1,2 +1,2 @@
 # StitchKit
-Progressive Web App for a little knitting help
+A progressive web app for a little knitting help
