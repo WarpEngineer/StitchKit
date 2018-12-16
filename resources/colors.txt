@@ -2,6 +2,10 @@ Orange color
 186, 74, 0
 #BA4A00
 
+possible background: #FF3333
+
+Chosen logo font: Viner Hand ITC Bold
+
 For icons:
 You must give appropriate credit, provide a link to the license, and indicate
 if changes were made. You may do so in any reasonable manner, but not in any
