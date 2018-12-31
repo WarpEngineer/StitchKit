@@ -1,0 +1,20 @@
+{
+	"name": "StitchKit", 
+	"short_name": "StitchKit", 
+	"start_url": "/index.html", 
+	"display": "standalone", 
+	"theme_color": "#123456", 
+	"background_color": "#654321",
+	"icons": [
+		{
+			"src": "icon192.png", 
+			"sizes": "192x192", 
+			"type": "image/png"
+		},
+		{
+			"src": "icon144.png", 
+			"sizes": "144x144", 
+			"type": "image/png"
+		}
+	]
+}
