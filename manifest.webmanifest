@@ -3,9 +3,14 @@
 	"short_name": "StitchKit", 
 	"start_url": "/index.html", 
 	"display": "standalone", 
-	"theme_color": "#123456", 
-	"background_color": "#654321",
+	"theme_color": "#9900CC", 
+	"background_color": "#F0E68C",
 	"icons": [
+		{
+			"src": "icon512.png", 
+			"sizes": "512x512", 
+			"type": "image/png"
+		},
 		{
 			"src": "icon192.png", 
 			"sizes": "192x192", 
