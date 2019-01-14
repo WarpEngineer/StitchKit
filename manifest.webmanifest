@@ -1,6 +1,6 @@
 {
-	"name": "StitchKit", 
-	"short_name": "StitchKit", 
+	"name": "Stitch Kit", 
+	"short_name": "Stitch Kit", 
 	"start_url": "/index.html", 
 	"display": "standalone", 
 	"theme_color": "#ADD8E6", 

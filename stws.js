@@ -1,4 +1,4 @@
-// StitchKit service worker file
+// Stitch Kit service worker file
 
 const cacheName    = 'stitchkit_v0.1'; // name of cache to use.
 const oldCacheName = 'stitchkit_v0.0'; // name of cache from previous version of app. used to remove old cache.
