@@ -1,9 +1,9 @@
 # Stitch Kit
 A tiny progressive web app for a little knitting help.
 
-_Stitch Kit_ provides a few knitting patterns and caches them locally so that they can be accessed quickly and when offline.
+_Stitch Kit_ provides a few knitting techniques and caches them locally so that they can be accessed quickly and when offline.
 
-The provided patterns are:
+The provided techniques are:
 
 * Cables
 * Eye of Partridge

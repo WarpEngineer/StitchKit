@@ -80,6 +80,19 @@
 					<a class='text-muted' href="/about.html">(About)</a>
 			</div>
 		</footer>
+		<script>
+			// make sure that the browser supports Service Workers and register if so.
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/stws.js').then( function(reg) { 
+					// registration successful
+					console.log('Registration successful.');
+					console.log('Scope: ', reg.scope);
+				}).catch(function(error) {
+					// failed
+					console.log('Registration failed: ', error);
+				});
+			}
+		</script>
 	</body>
 </html>
 
