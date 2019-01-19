@@ -15,6 +15,7 @@ self.addEventListener('beforeinstallprompt', function(event) {
 	);
 });
 
+// TODO: add images to cache in next version
 // attach listener to 'install' event
 self.addEventListener('install', function(event) {
 	event.waitUntil(self.skipWaiting()); // trigger activate event to start immediately instead of waiting for a page reload
