@@ -1,7 +1,7 @@
 // Stitch Kit service worker file
 
-const cacheName    = 'stitchkit_v0.1'; // name of cache to use.
-const oldCacheName = 'stitchkit_v0.0'; // name of cache from previous version of app. used to remove old cache.
+const cacheName    = 'stitchkit_v0.2'; // name of cache to use.
+const oldCacheName = 'stitchkit_v0.1'; // name of cache from previous version of app. used to remove old cache.
 const offlinePage  = './offline.html'; // page to load to show an offline status.
 
 // attach listener to 'beforeinstallprompt' event
@@ -22,13 +22,22 @@ self.addEventListener('install', function(event) {
 	event.waitUntil(
 		caches.open(cacheName).then(
 			cache => cache.addAll([ '/',
+				'/bootstrap.min.css',
 				'/about.html',
 				'/cables.html',
+				'/cables.png',
 				'/eyeofpartridge.html',
+				'/eyeofpartridge.png',
 				'/index.html',
 				'/kitchener.html',
+				'/kitchener.png',
 				'/m1randm1l.html',
+				'/m1randm1l.png',
 				'/wrapandturn.html',
+				'/wrapandturn.png',
+				'/chevron-circle-left-solid.svg',
+				'/chevron-circle-right-solid.svg',
+				'/stitchkit.png',
 				offlinePage ])
 		)
 	);
