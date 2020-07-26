@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "com.ensadi.stitchkit.twa",
+                   "sha256_cert_fingerprints": ["D7:B1:F9:6C:E8:D5:CA:E3:BA:42:E2:63:D0:A2:C4:7D:37:97:6F:60:3D:99:30:71:6E:82:C6:16:1B:DF:62:AC"] }
+    }]

@@ -1,0 +1,4 @@
+Android apk created using pwabuilder.com:
+
+Place assetlinks.json in %{webroot%}/.well-known/
+Find keys stored encrypted under SO.
